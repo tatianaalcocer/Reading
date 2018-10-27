@@ -93,7 +93,7 @@ Take a look at the code below:
 ```js
 const game1 = {
   player1: 'Tahani',
-  player2: 'Justin',
+  player2: 'Jason',
   currentPlayer: '',
   start: function(){
     this.currentPlayer = this.player1;
@@ -166,7 +166,7 @@ class Game {
   }
 }
 
-const game1 = new Game('Tahani', 'Justin');
+const game1 = new Game('Tahani', 'Jason');
 ```
 
 Remember the `constructor` function builds our new object. `constructor` is a keyword and every class should have a constructor function.
@@ -177,7 +177,7 @@ So what does our object look like now?
 ```js
 const game1 = {
   player1: 'Tahani',
-  player2: 'Justin',
+  player2: 'Jason',
   currentPlayer: ''
 }
 ```
@@ -203,7 +203,7 @@ class Game {
 Now we create our game objects from the class:
 
 ```js
-const game1 = new Game('Tahani', 'Justin');
+const game1 = new Game('Tahani', 'Jason');
 const game2 = new Game('Chidi', 'Eleanor');
 ```
 
@@ -228,7 +228,7 @@ So what's the `game1` object look like now?
 ```js
 const game1 = {
   player1: 'Tahani',
-  player2: 'Justin',
+  player2: 'Jason',
   currentPlayer: ''
 }
 ```
